@@ -12,7 +12,7 @@ import java.util.Random;
 public class CharacterService {
     private final WebClient webClient = WebClient.create("https://rickandmortyapi.com/api/");
 
-    public RickMortyCharacter getCharacters() {
+    public RickMortyCharacter getCharacter14() {
         ResponseEntity<RickMortyCharacter> responseEntity = webClient.get()
                 .uri("character/14")
                 .retrieve()

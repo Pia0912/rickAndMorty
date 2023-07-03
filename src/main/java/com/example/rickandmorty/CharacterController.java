@@ -16,7 +16,7 @@ public class CharacterController {
 
     @GetMapping
     RickMortyCharacter getCharacters(){
-        return service.getCharacters();
+        return service.getCharacter14();
     }
 
     @GetMapping("/list")
